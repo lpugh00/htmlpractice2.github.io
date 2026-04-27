@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lauren Pugh | My Story</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Lauren Pugh</h1>
+    <p>17 | Senior | My Life, My Story</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#timeline">Journey</a>
+    <a href="#favorites">Favorites</a>
+    <a href="#goals">Goals</a>
+    <a href="#gallery">Gallery</a>
+</nav>
+
+<section id="about" class="card">
+    <h2>About Me</h2>
+    <ul>
+        <li>My name is Lauren Pugh</li>
+        <li>I am 17 years old and a senior in high school</li>
+        <li>I was born in Virginia</li>
+        <li>I moved to Belize in 2019</li>
+        <li>I have two sisters and I am the middle child</li>
+        <li>I enjoy reading, music, and movies</li>
+    </ul>
+</section>
+
+<section id="timeline" class="card">
+    <h2>My Journey</h2>
+    <ul>
+        <li>Born in Virginia</li>
+        <li>Moved to Belize in 2019</li>
+        <li>Visited 6 countries</li>
+        <li>Developed a love for New York</li>
+    </ul>
+</section>
+
+<section id="favorites" class="card">
+    <h2>Favorites</h2>
+    <ul>
+        <li>Favorite movie: The Hunger Games</li>
+        <li>Favorite book series: The Hunger Games</li>
+    </ul>
+</section>
+
+<section id="goals" class="card">
+    <h2>Future Goals</h2>
+    <p>
+        I plan on pursuing a career in project management. I want to work on meaningful projects,
+        travel more, and continue growing both personally and professionally.
+    </p>
+</section>
+
+<section id="gallery" class="card">
+    <h2>Photo Gallery</h2>
+    <div class="gallery">
+        <img src="image1.jpeg" alt="photo">
+        <img src="image2.jpeg" alt="photo">
+        <img src="image3.jpeg" alt="photo">
+    </div>
+</section>
+
+<section class="card center">
+    <h2>Fun Fact</h2>
+    <button onclick="showFact()">Click Me</button>
+    <p id="fact"></p>
+</section>
+
+<footer>
+    <p>© 2026 Lauren Pugh</p>
+</footer>
+
+<script>
+    function showFact() {
+        document.getElementById("fact").innerText =
+            "I've traveled to 6 countries and I love New York!";
+    }
+</script>
+
+</body>
+</html>
