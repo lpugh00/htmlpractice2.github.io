@@ -1,2 +1,7 @@
 # htmlpractice2.github.io
-Html practice development
+
+## demo
+[Lauren's Profile](https://lpugh00.github.io/htmlpractice2.github.io/)
+
+## About Me
+This website is an autobiography about me.
